@@ -1,20 +1,15 @@
-import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Themes of War in Muriel Spark's Girls of Slender Means
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {``}
       </p>
       <div className="my-8">
-        <BlogPosts />
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, odit? Eius quae, ea dicta quas laboriosam libero laborum, impedit odio harum animi possimus maxime inventore odit ipsam labore facere. Repellendus!
       </div>
     </section>
   )
