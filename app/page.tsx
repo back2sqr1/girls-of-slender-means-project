@@ -1,3 +1,10 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Home',
+  description: 'Explore Muriel Spark\'s The Girls of Slender Means through WWII historical context, wartime rationing, daily routines, and literary analysis.',
+  keywords: ['Girls of Slender Means', 'Muriel Spark', 'WWII literature', 'British literature', 'war themes', 'literary analysis'],
+}
 
 export default function Page() {
   return (

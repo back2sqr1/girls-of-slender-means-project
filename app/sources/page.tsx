@@ -4,6 +4,8 @@ import React from "react";
 
 export const metadata = {
   title: "Sources: WWII influences in The Girls of Slender Means",
+  description: "Academic sources and bibliography for The Girls of Slender Means, including historical context on WWII rationing, daily life, and Muriel Spark research.",
+  keywords: ["bibliography", "academic sources", "WWII research", "Muriel Spark sources", "historical sources"],
 };
 
 type Citation = {

@@ -1,4 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Wartime Rationing in WWII Britain',
+  description: 'Learn about wartime rationing in Britain during WWII and its impact on The Girls of Slender Means. Explore ration books, clothing coupons, and daily life.',
+  keywords: ['WWII rationing', 'Britain rationing', 'ration books', 'wartime Britain', 'Girls of Slender Means', 'food rationing', 'clothing rationing'],
+}
+
 export default function Rations() {
   return (
     <section>

@@ -1,4 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Daily Routine in WWII Britain',
+  description: 'Discover daily life during WWII in Britain: air raids, bomb shelters, blackouts, and wartime activities that shaped The Girls of Slender Means.',
+  keywords: ['WWII daily life', 'British home front', 'air raids', 'bomb shelters', 'Battle of Britain', 'wartime routine', 'WWII Britain'],
+}
+
 export default function Routines() {
   return (
     <section>

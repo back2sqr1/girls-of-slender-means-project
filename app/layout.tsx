@@ -9,14 +9,16 @@ import Footer from './components/footer'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'The Girls of Slender Means - WWII Context & Analysis',
+    template: '%s | The Girls of Slender Means',
   },
-  description: 'This is my portfolio.',
+  description: 'Explore Muriel Spark\'s The Girls of Slender Means through the lens of WWII Britain. Learn about wartime rationing, daily routines, and the author\'s life.',
+  keywords: ['Muriel Spark', 'The Girls of Slender Means', 'WWII Britain', 'wartime rationing', 'British literature', 'World War II literature', 'historical context'],
+  authors: [{ name: 'ENGL-378 Project' }],
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
-    siteName: 'My Portfolio',
+    title: 'The Girls of Slender Means - WWII Context & Analysis',
+    description: 'Explore Muriel Spark\'s The Girls of Slender Means through the lens of WWII Britain. Learn about wartime rationing, daily routines, and the author\'s life.',
+    siteName: 'The Girls of Slender Means Study Guide',
     locale: 'en_US',
     type: 'website',
   },

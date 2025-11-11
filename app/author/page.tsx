@@ -1,4 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Muriel Spark - Author Biography',
+  description: 'Explore Muriel Spark\'s life, her conversion to Catholicism, WWII propaganda work, and how her experiences shaped The Girls of Slender Means.',
+  keywords: ['Muriel Spark', 'British author', 'Catholic literature', 'WWII propaganda', 'Scottish writers', 'Girls of Slender Means author'],
+}
+
 export default function Author() {
   return (
     <section>
